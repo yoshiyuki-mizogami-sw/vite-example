@@ -1,8 +1,11 @@
 # Vite-ts-vue-example
 # VSCodeのRemote Developmentをインストール
+コマンドパレット -> show recommended extensions にあるので選択。
 エクステンションId: `ms-vscode-remote.vscode-remote-extensionpack`
 
-コマンドパレット-> Remote in Container -> コンテナをホストのように使える
+コマンドパレット-> Reopen in Container -> コンテナをvscodeからホストのように触れる
+
+イメージをビルドし直すときは Rebuild and Reopen in Container
 
 # コンテナ内から
 ```sh
